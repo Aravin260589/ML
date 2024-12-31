@@ -10,7 +10,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import streamlit as st
 
 # Load your Netflix dataset
-netflix = pd.read_csv(r'C:\Users\Rajarshi Das\Documents\netflix_titles.csv')  # Replace with your dataset path
+netflix = pd.read_csv('netflix_titles.csv')  # Replace with your dataset path
 
 # Fill NA values
 filledna = netflix.fillna('')
