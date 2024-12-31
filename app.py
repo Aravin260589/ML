@@ -3,7 +3,9 @@
 
 # In[ ]:
 
-##pip install streamlit
+pip install streamlit
+pip install pandas
+pip install scikit-learn
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
